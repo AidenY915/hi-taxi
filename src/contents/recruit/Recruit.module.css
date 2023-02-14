@@ -1,0 +1,46 @@
+.sidebar {
+  position: sticky;
+  top: 0px;
+  height: 60px;
+  background-color: #1b387c;
+}
+
+.sidebar ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidebar .sidebar__contents {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  width: 200px;
+  background-color: #1b387c;
+  font-size: 14px;
+  color: #fff;
+  font-weight: 500;
+}
+
+.sidebar .sidebar__contents:hover {
+  background-color: #fff;
+  color: #1b387c;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.test1 {
+  height: 1000px;
+  background-color: pink;
+}
+
+.test2 {
+  height: 1000px;
+  background-color: tomato;
+}
+
+.test3 {
+  height: 1000px;
+  background-color: royalblue;
+}
