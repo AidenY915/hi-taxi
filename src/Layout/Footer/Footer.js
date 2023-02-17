@@ -1,7 +1,15 @@
-import styles from "./Footer.module.css";
+import styled from "styled-components";
 
 const Footer = () => {
-  return <div className={styles.footer}>푸터입니다.</div>;
+  return <StyledFooter>푸터입니다.</StyledFooter>;
 };
+
+const StyledFooter = styled.footer`
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background-color: gray;
+`;
 
 export default Footer;
