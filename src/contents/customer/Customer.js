@@ -1,7 +1,12 @@
-import styles from "./Customer.module.css";
+import styled from "styled-components";
 
 const Customer = () => {
-  return <div className={styles.main}>고객마당입니다.</div>;
+  return <StyledCustomer>고객마당입니다.</StyledCustomer>;
 };
+
+const StyledCustomer = styled.div`
+  height: 1000px;
+  background-color: olive;
+`;
 
 export default Customer;

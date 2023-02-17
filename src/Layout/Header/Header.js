@@ -14,7 +14,7 @@ const Header = () => {
         </Logo>
         <NavBar>
           <Ul
-            onMouseOver={() => onHoverHeight("100%")}
+            onMouseOver={() => onHoverHeight("210px")}
             onMouseOut={() => onHoverHeight("80px")}
           >
             <li>
@@ -66,7 +66,6 @@ const Header = () => {
         </NavBar>
       </Inner>
       <Test></Test>
-      <Test2></Test2>
     </StyledHeader>
   );
 };
@@ -75,7 +74,7 @@ const StyledHeader = styled.header`
   height: ${(props) => props.height || "80px"};
   background-color: #fff;
   overflow: hidden;
-  position: absolute;
+  position: relative;
   left: 0;
   right: 0;
   top: 0;
@@ -167,17 +166,6 @@ const Test = styled.div`
   top: 80px;
   left: 0;
   border-top: 1px solid #838c91;
-`;
-
-const Test2 = styled.div`
-  width: 100%;
-  height: 100%;
-  z-index: 1;
-  background-color: black;
-  position: absolute;
-  top: 210px;
-  left: 0;
-  opacity: 0.2;
 `;
 
 export default Header;
