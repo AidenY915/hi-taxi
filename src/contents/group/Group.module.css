@@ -16,7 +16,7 @@
   align-items: center;
   justify-content: center;
   height: 60px;
-  width: 200px;
+  width: 600px;
   background-color: #1b387c;
   font-size: 14px;
   color: #fff;
@@ -30,10 +30,7 @@
   font-size: 20px;
 }
 
-.test1 {
-  height: 1000px;
-  background-color: tomato;
-}
+
 
 .test2 {
   height: 1000px;
